@@ -2,5 +2,5 @@ The server settings for [masterwholesale.com](https://masterwholesale.com) (Mage
 
 ## Restarting services
 ```posh  
-...
+service mysql restart
 ```
