@@ -1,0 +1,6 @@
+MAILTO=""
+SHELL="/bin/bash"
+*/5 * * * * php /home/binary5/pm_classes/batch_mgr.php
+
+
+

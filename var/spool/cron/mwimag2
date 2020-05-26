@@ -1,0 +1,6 @@
+MAILTO="jkl@masterwholesale.net"
+#~ MAGENTO START 1057091350ec6ebff7641b692f65b7c46ad15d97d7e2671ccc8dce7671888922
+*/5 * * * * /opt/cpanel/ea-php71/root/usr/bin/php  -dmemory_limit=4G  /home/mwimag2/public_html/bin/magento cron:run 2>&1 | grep -v "Ran jobs by schedule" >> /home/mwimag2/public_html/var/log/magento.cron.log
+*/5 * * * * /opt/cpanel/ea-php71/root/usr/bin/php  -dmemory_limit=4G /home/mwimag2/public_html/update/cron.php >> /home/mwimag2/public_html/var/log/update.cron.log
+*/5 * * * * /opt/cpanel/ea-php71/root/usr/bin/php  -dmemory_limit=5G /home/mwimag2/public_html/bin/magento setup:cron:run >> /home/mwimag2/public_html/var/log/setup.cron.log
+#~ MAGENTO END 1057091350ec6ebff7641b692f65b7c46ad15d97d7e2671ccc8dce7671888922
