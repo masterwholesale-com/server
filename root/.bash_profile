@@ -1,6 +1,6 @@
 # .bash_profile
 
-# 2020-05-20 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-05-20 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 export PS1='\[\e[01;33m\]\w\n\[\e[01;31m\]\$ \[\e[00m\]'
 umask 022
 eval "`dircolors`"

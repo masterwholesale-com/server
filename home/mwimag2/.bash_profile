@@ -1,6 +1,6 @@
 # .bash_profile
 
-# 2020-05-21 Dmitry Fedyuk https://www.upwork.com/fl/mage2pro
+# 2020-05-21 Dmitry Fedyuk https://github.com/dmitrii-fediuk
 export PS1='\[\e[01;33m\]\w\n\[\e[38;5;028m\]\$ \[\e[00m\]'
 eval "`dircolors`"
 alias ...='cd ../..'
